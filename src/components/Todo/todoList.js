@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
-import Todo from './todo';
+
 
 class TodoList extends Component {
   render() {
     return(
-      <div>
         <ul>
-          {this.props.todos.map((todo, i) => <Todo key={i} todo={todo}/>)}
+          {this.props.todo_data.map((todo, i) => <li key={i} className="card-row">{todo}</li>)}
         </ul>
-      </div>
     );
   }
 }
