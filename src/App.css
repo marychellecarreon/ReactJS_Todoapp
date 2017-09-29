@@ -1,28 +1,81 @@
-.App {
+.card {
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 30px;
+   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card-row {
+  padding: 20px 5px;
+  border-bottom: 1 px solid #F0F0F0;
+}
+
+.head-block {
+  background-color: teal;
+  padding: 25px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.body-block {
+  padding: 25px;
+}
+
+.card-title {
+  color: white;
+  font-family: 'Arvo', serif;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.col-xs-12, .col-md-6 {
+  padding: 0;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+.search-field {
   color: white;
+  background-color: transparent;
+  width: 100%;
+  line-height: 2em;
+  padding: 10px;
+  border: 0;
+  margin-top: 20px;
 }
 
-.App-title {
-  font-size: 1.5em;
+.search-field:focus {
+  border: 0;
+  outline: hidden;
 }
 
-.App-intro {
-  font-size: large;
+.form-field {
+  border: 0;
+  outline: hidden;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.add-btn {
+  font-size: 50px;
+  background-color: teal;
+  color: white;
+  display: inline-block;
+  margin: 0.3em;
+  padding: 1em 3em;
+  overflow: hidden;
+  positive: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 3px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+  border: none;
+  font-size: 15px;
+  text-align: center;
+}
+
+.add-btn:hover {
+  box-shadow: 1px 6px 15px rgba(0,0,0,0.5);
 }
