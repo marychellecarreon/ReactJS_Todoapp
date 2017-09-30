@@ -30,9 +30,10 @@ class TodoForm extends Component {
                 onChange={(event) => this.updateText(event)}
                 value={this.state.text}
                 className="form-field"
-                placeholder="What do I need to do?"
-        />
-           <button onClick={() => this.addTodo()} className="add-btn">Add Todo</button>
+                placeholder="Tasks I need to do"
+           />
+           <br />
+           <center><button onClick={() => this.addTodo()} className="add-btn">Add Todo</button></center>
            </div>
       )
     }

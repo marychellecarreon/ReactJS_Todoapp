@@ -17,4 +17,4 @@ This is a simple to-do list application made using ReactJS.
 And this will redirect you to a local server https://localhost:3000
 
 ### Screenshot
-![screen shot 2017-09-28 at 8 46 39 pm](https://user-images.githubusercontent.com/26729817/30967241-296af708-a48e-11e7-859d-798381d112a7.png)
+![screen shot 2017-10-01 at 6 03 15 am](https://user-images.githubusercontent.com/26729817/31049831-46d7ee72-a66e-11e7-879d-5e2a3c9a5e16.png)
