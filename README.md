@@ -1,5 +1,5 @@
 
-![ReactJS|In progress](https://img.shields.io/badge/ReactJS-inprogress-yellowgreen.svg)
+![ReactJS|Done](https://img.shields.io/badge/ReactJS-Complete-yellowgreen.svg)
 
 # To-do List App
 This is a simple to-do list application made using ReactJS.
